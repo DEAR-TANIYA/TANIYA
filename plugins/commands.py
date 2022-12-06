@@ -52,7 +52,7 @@ async def start(client, message):
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_chat_action(enums.ChatAction.TYPING)
-        m=await message.reply_sticker("CAACAgUAAxkDAALio2OO0c-cOfdJGscITMUaIX6dVZU3AALBBwACXSpxVNrbjbI2HHmMHgQ")
+        m=await message.reply_sticker("CAACAgQAAxkBAALi3mOO2nCZ5HcuQYTAl6PjM0DUlLjnAAKoAAONG0YnJCphGgSP4lgeBA")
         await asyncio.sleep(1)
         await m.delete()
         await message.reply_photo(
@@ -106,7 +106,7 @@ async def start(client, message):
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_chat_action(enums.ChatAction.TYPING)
-        m=await message.reply_sticker("CAACAgUAAxkDAALio2OO0c-cOfdJGscITMUaIX6dVZU3AALBBwACXSpxVNrbjbI2HHmMHgQ")
+        m=await message.reply_sticker("CAACAgQAAxkBAALi3mOO2nCZ5HcuQYTAl6PjM0DUlLjnAAKoAAONG0YnJCphGgSP4lgeBA")
         await asyncio.sleep(1)
         await m.delete()
         await message.reply_photo(
