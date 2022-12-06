@@ -38,9 +38,9 @@ async def start(client, message):
         await client.send_message(LOG_CHANNEL, script.LOG_TEXT_P.format(message.from_user.id, message.from_user.mention, message.from_user.username, temp.U_NAME))
     if len(message.command) != 2:
         buttons = [[
-            InlineKeyboardButton("╳ 𝘼𝘿𝘿 𝙈𝙀 𝙏𝙊 𝙔𝙊𝙐𝙍 𝙂𝙍𝙊𝙐𝙋𝙎 ╳", url=f"http://t.me/{temp.U_NAME}?startgroup=true")
+            InlineKeyboardButton("╳𝘼𝘿𝘿 𝙈𝙀 𝙏𝙊 𝙔𝙊𝙐𝙍 𝙂𝙍𝙊𝙐𝙋𝙎╳", url=f"http://t.me/{temp.U_NAME}?startgroup=true")
             ],[
-            InlineKeyboardButton("🤴𝘽𝙊𝙏 𝙊𝙒𝙉𝙀𝙍 ", url="https://t.me/cinemaclubcc"), 
+            InlineKeyboardButton("🤴𝘽𝙊𝙏 𝙊𝙒𝙉𝙀𝙍", url="https://t.me/cinemaclubcc"), 
             InlineKeyboardButton("📢𝙐𝙋𝘿𝘼𝙏𝙀𝙎", url="https://t.me/CiNEMA_CiTY_UPDATES")
             ],[
             InlineKeyboardButton("🎥𝙈𝙊𝙑𝙄𝙀 𝘾𝙃𝘼𝙉𝙉𝙀𝙇", url="https://t.me/+ZiDeeN9yubk5NDhl")
@@ -92,9 +92,9 @@ async def start(client, message):
         return
     if len(message.command) == 2 and message.command[1] in ["subscribe", "error", "okay", "help"]:
         buttons = [[
-            InlineKeyboardButton("╳ 𝘼𝘿𝘿 𝙈𝙀 𝙏𝙊 𝙔𝙊𝙐𝙍 𝙂𝙍𝙊𝙐𝙋𝙎 ╳", url=f"http://t.me/{temp.U_NAME}?startgroup=true")
+            InlineKeyboardButton("╳𝘼𝘿𝘿 𝙈𝙀 𝙏𝙊 𝙔𝙊𝙐𝙍 𝙂𝙍𝙊𝙐𝙋𝙎╳", url=f"http://t.me/{temp.U_NAME}?startgroup=true")
             ],[
-            InlineKeyboardButton("🤴𝘽𝙊𝙏 𝙊𝙒𝙉𝙀𝙍 ", url="https://t.me/cinemaclubcc"), 
+            InlineKeyboardButton("🤴𝘽𝙊𝙏 𝙊𝙒𝙉𝙀𝙍", url="https://t.me/cinemaclubcc"), 
             InlineKeyboardButton("📢𝙐𝙋𝘿𝘼𝙏𝙀𝙎", url="https://t.me/CiNEMA_CiTY_UPDATES")
             ],[
             InlineKeyboardButton("🎥𝙈𝙊𝙑𝙄𝙀 𝘾𝙃𝘼𝙉𝙉𝙀𝙇", url="https://t.me/+ZiDeeN9yubk5NDhl")
