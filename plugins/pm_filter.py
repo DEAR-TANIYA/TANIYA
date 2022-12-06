@@ -1346,7 +1346,7 @@ async def auto_filter(client, msg, spoll=False):
             **locals()
         )
     else:
-        cap = f"Here is what i found for your query {search}"
+        cap = f"<b>⍞  𝗧𝗶𝘁𝗹𝗲 : {search}</b>\n<b>❂ 𝗥𝗲𝗾𝘂𝗲𝘀𝘁𝗲𝗱 𝗯𝘆 : {message.from_user.mention}</b>\n\n<b>𝐔𝐩𝐥𝐨𝐚𝐝𝐞𝐝 𝐁𝐲 : {message.chat.title}</b>"
     if imdb and imdb.get('poster'):
         try:
             hehe = await message.reply_photo(photo=imdb.get('poster'), caption=cap, reply_markup=InlineKeyboardMarkup(btn))
@@ -1442,7 +1442,7 @@ async def pm_AutoFilter(client, msg, pmspoll=False):
             **locals()
         )
     else:
-        cap = f"<b>⍞  𝗧𝗶𝘁𝗹𝗲 : {search}</b>\n<b>❂ 𝗥𝗲𝗾𝘂𝗲𝘀𝘁𝗲𝗱 𝗯𝘆 : {message.from_user.mention}</b>\n<b>𝐔𝐩𝐥𝐨𝐚𝐝𝐞𝐝 𝐁𝐲 : "
+        cap = f"<b>⍞  𝗧𝗶𝘁𝗹𝗲 : {search}</b>\n<b>❂ 𝗥𝗲𝗾𝘂𝗲𝘀𝘁𝗲𝗱 𝗯𝘆 : {message.from_user.mention}</b>\n\n<b>𝐔𝐩𝐥𝐨𝐚𝐝𝐞𝐝 𝐁𝐲 : {message.chat.title}</b>"
     if imdb and imdb.get('poster'):
         try:
             hehe = await message.reply_photo(photo=imdb.get('poster'), caption=cap, reply_markup=InlineKeyboardMarkup(btn))
