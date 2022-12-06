@@ -1,13 +1,13 @@
 class script(object):   
-    HELP_TXT = """𝙷𝙴𝚈 {}\n𝙷𝙴𝚁𝙴 𝙸𝚂 𝙼𝚈 𝙷𝙴𝙻𝙿 𝙲𝙾𝙼𝙼𝙰𝙽𝙳𝚂."""
+    HELP_TXT = """<b>𝙷𝙴𝚈 {}\n𝙷𝙴𝚁𝙴 𝙸𝚂 𝙼𝚈 𝙷𝙴𝙻𝙿 𝙲𝙾𝙼𝙼𝙰𝙽𝙳𝚂.</b>"""
 
-    ABOUT_TXT = """✯ 𝙼𝚈 𝙽𝙰𝙼𝙴 : {}
-✯ 𝙲𝚁𝙴𝙰𝚃𝙾𝚁 : <a href=https://t.me/cinemaclubcc>𝗦𝗨𝗡𝗘𝗘𝗦𝗛 𝗗𝗘𝗘𝗭𝗨𝗭𝗭𝗔</a>
-✯ 𝙻𝙸𝙱𝚁𝙰𝚁𝚈 : 𝙿𝚈𝚁𝙾𝙶𝚁𝙰𝙼
-✯ 𝙻𝙰𝙽𝙶𝚄𝙰𝙶𝙴 : 𝙿𝚈𝚃𝙷𝙾𝙽 𝟹
-✯ 𝙳𝙰𝚃𝙰 𝙱𝙰𝚂𝙴 : 𝙼𝙾𝙽𝙶𝙾-𝙳𝙱
-✯ 𝙱𝙾𝚃 𝚂𝙴𝚁𝚅𝙴𝚁 : 𝙰𝙽𝚈𝚆𝙷𝙴𝚁𝙴
-✯ 𝙱𝚄𝙸𝙻𝙳 𝚅𝙴𝚁𝚂𝙸𝙾𝙽:SD ROBOT 𝚟3.0.0"""
+    ABOUT_TXT = """<b>✯ BOT NAME : {}
+✯ BOT OWNER : <a href=https://t.me/cinemaclubcc>𝗦𝗨𝗡𝗘𝗘𝗦𝗛 𝗗𝗘𝗘𝗭𝗨𝗭𝗭𝗔</a>
+✯ LIBRARY : PYROGRAM
+✯ LANGUAGE : PYTHON 3
+✯ DATA BASE : MONGO-DB
+✯ BOT SERVER : koyeb.com
+✯ BUILD VERSION:SD ROBOT 𝚟3.0.0</b>"""
 
     SOURCE_TXT = """<b>NOTE:</b>
 - Join Request Movies Group:-<a href=https://t.me/Mallu_Movie_Hub_Group>Join Here</a>
